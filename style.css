@@ -17,7 +17,7 @@ body{
 }
 
 .nft-container{
-    width: 20vw;
+    width: max(250px , 20%);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -148,32 +148,4 @@ body{
 
 
 
-/* Media Queries for different Screen Sizes */
 
-
-@media(max-width:1200px){
-    .nft-container{
-        width: 30%;
-        
-    }
-}
-
-
-@media(max-width:900px){
-    .nft-container{
-        width: 50%;
-        
-    }
-}
-@media(max-width:500px){
-    .nft-container{
-        width: 60%;
-        
-    }
-}
-@media(max-width:400px){
-    .nft-container{
-        width: 80%;
-        
-    }
-}
